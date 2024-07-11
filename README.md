@@ -26,7 +26,7 @@ This repository provides a REST API that find the closest airport for a list of 
     ```bash
      pip install -r requirements.txt
      ```
-4. **Optional: Generate the necessary CSV files:
+4. **Optional: Generate the necessary CSV files:**
    ```bash
    python airports_filter.py #to create airports_w_wiki.csv
    python create_closest_airport.py #to create user_closest_airport.csv
