@@ -19,8 +19,8 @@ This repository provides a REST API that find the closest airport for a list of 
    ```
 2. **Create and activate a virtual environment:**
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   virtualenv env
+   source env/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
  3. **Install the required dependencies:**
     ```bash
